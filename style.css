@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    user-select: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(235deg 67% 32%) 9%,
+        hsl(230deg 56% 43%) 18%,
+        hsl(225deg 59% 54%) 27%,
+        hsl(225deg 68% 60%) 36%,
+        hsl(238deg 47% 55%) 45%,
+        hsl(255deg 47% 44%) 55%,
+        hsl(273deg 70% 31%) 64%,
+        hsl(278deg 100% 22%) 73%,
+        hsl(274deg 100% 19%) 82%,
+        hsl(269deg 100% 16%) 91%,
+        hsl(0deg 0% 0%) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+    width: 75%;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 180px;
+}
+
+.para-1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 34px;
+}
+.para-2 {
+    margin: 40px 30px;
+    font-size: 18px;
+}
+
+h1 , .para-1 {
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(235deg 67% 32%) 9%,
+        hsl(230deg 56% 43%) 18%,
+        hsl(225deg 59% 54%) 27%,
+        hsl(225deg 68% 60%) 36%,
+        hsl(238deg 47% 55%) 45%,
+        hsl(255deg 47% 44%) 55%,
+        hsl(273deg 70% 31%) 64%,
+        hsl(278deg 100% 22%) 73%,
+        hsl(274deg 100% 19%) 82%,
+        hsl(269deg 100% 16%) 91%,
+        hsl(0deg 0% 0%) 100%
+    );
+    background-clip: text;
+    color: transparent;
+}
+
+button {
+    text-transform: uppercase;
+    margin: 0 12px;
+    font-size: 18px;
+    width: 190px;
+    padding: 12px 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    transform: scale(1.2) ;
+}
+.btn-1 {
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(235deg 67% 32%) 9%,
+        hsl(230deg 56% 43%) 18%,
+        hsl(225deg 59% 54%) 27%,
+        hsl(225deg 68% 60%) 36%,
+        hsl(238deg 47% 55%) 45%,
+        hsl(255deg 47% 44%) 55%,
+        hsl(273deg 70% 31%) 64%,
+        hsl(278deg 100% 22%) 73%,
+        hsl(274deg 100% 19%) 82%,
+        hsl(269deg 100% 16%) 91%,
+        hsl(0deg 0% 0%) 100%
+    );
+    border: 3px solid #5376DE;
+    color: #fff;
+}
+.btn-2 {
+    border: 3px solid #5376DE;
+}
